@@ -5,8 +5,6 @@
 
 # Install dependepcies
 brew install git-lfs
-brew install ruby
-brew install node
 
-# Install gems
-gem install bundler cocoapods fastlane
+# install ruby
+curl -sSL https://get.rvm.io | bash -s stable --ruby --gems=bundler,cocoapods,fastlane
